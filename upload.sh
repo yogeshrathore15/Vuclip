@@ -4,7 +4,7 @@ cat /dev/null > $log_file
 echo "Test change..."
 start_time=$(date +"%d-%m-%y-%T")
 echo "Start Time:$start_time" >> $log_file
-
+echo "Hi"
 if [ -f final.out ]
 then
 	echo "final.out is present"
